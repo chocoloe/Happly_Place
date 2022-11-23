@@ -17,7 +17,7 @@ const FIREBASEUI_CONFIG_OBJ = {
     credentialHelper: 'none',
 }
 
-export default function homePage(props) {
+export default function signIn(props) {
 
     const auth = getAuth(); // firebase authenticator
 
