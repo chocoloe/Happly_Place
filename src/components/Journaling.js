@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Jounaling() {
+export default function Journaling() {
     
 }
