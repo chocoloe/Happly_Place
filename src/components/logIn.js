@@ -1,2 +1,3 @@
 import React from 'react';
-import { getAuth } from "firebase/auth";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
