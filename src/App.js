@@ -1,4 +1,9 @@
 import React from 'react';
+
+import Quiz from './components/Quiz';
+
+function App() {
+
 import { Route, Routes, BrowserRouter, /*Outlet, Link */} from 'react-router-dom';
 
 function App(props) {
@@ -6,6 +11,8 @@ function App(props) {
     return (
         <BrowserRouter>
             <Routes>
+            </Routes>
+
                 <Route path="homePage" element={<homePage />} />
                 {/* <Route path="Journaling" element={<Journaling />} /> */}
                 <Route path="signIn" element={<signIn />} /> 
