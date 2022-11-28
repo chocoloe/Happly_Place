@@ -1,4 +1,7 @@
 import React from 'react';
+import React, { useMood } from 'react'; //import React library
+import NavBar from './NavBar';
+import Footer from "./Footer";
 import { Route, Routes, BrowserRouter, Outlet } from 'react-router-dom';
 import { getAuth } from "firebase/auth";
 function App() {
