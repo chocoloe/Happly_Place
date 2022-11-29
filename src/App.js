@@ -1,21 +1,29 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from "./Footer";
-import { Route, Routes, BrowserRouter, Outlet } from 'react-router-dom';
-import { getAuth } from "firebase/auth";
+
+import Quiz from './components/Quiz';
+
 function App() {
 
+import { Route, Routes, BrowserRouter, /*Outlet, Link */} from 'react-router-dom';
+
+function App(props) {
+    // const [currentUser, setCurrentUser] = useState()
     return (
         <BrowserRouter>
             <Routes>
-//             <Route path="/" element={<HomePage companies={companies} setCompanyData={companyDataInfo} average={average} />} />
-// <Route path="homePage" element={<hometPage />} />
-// <Route path="Journalling" element={<CloserLookPage data={companyData} average={average} companies={companies} setCompanies={companiesInfo} />} />
-// <Route path="logIn" element={<RequestPage />} />
+            </Routes>
+
+                <Route path="homePage" element={<homePage />} />
+                {/* <Route path="Journaling" element={<Journaling />} /> */}
+                <Route path="signIn" element={<signIn />} />
+                {/* <Route path="Questionnaire" element={<Questionnaire />} /> */}
+
+                <Route path="navBar" element={<navBar />} />
             </Routes>
         </BrowserRouter>
 
     );
+    // should sign-in route be nested in the homepage route?
 }
 
 export default App;

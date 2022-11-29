@@ -1,14 +1,14 @@
-import { React , useMood} from 'react'; //import React library
+import { React , useState} from 'react'; //import React library
 import { NavLink } from "react-router-dom";
 
 
 // Creates the navbar with it's link to other pages 'home' ' journaling 'Questionnaire'
 export default function NavBar() {
 
-    const [burgerOpen, setBurgerOpen] = useMood (false);
+    const [burgerOpen, setBurgerOpen] = useState (false);
 
     // Handles the toggle action in the Nav bar
-    const toggleBurger = () => {
+    const toggleBurger = (useState) => {
         setBurgerOpen(!burgerOpen);
     }
 
