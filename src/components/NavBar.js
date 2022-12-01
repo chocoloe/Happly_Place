@@ -28,10 +28,10 @@ export default function NavBar() {
                                 <NavLink className="nav-link" to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/about">Journaling</NavLink>
+                                <NavLink className="nav-link" to="/Journaling">Journaling</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/bookmark">Questionnaire</NavLink>
+                                <NavLink className="nav-link" to="/Quiz">Questionnaire</NavLink>
                             </li>
                         </ul>
                     </div>
