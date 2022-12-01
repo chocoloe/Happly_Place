@@ -16,7 +16,7 @@ export default function NavBar() {
         <header>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Happy Place</a>
+                    {/* <a className="navbar-brand" href="#">Happy Place</a> */}
 
                     <button className="navbar-toggler float-right" onClick={toggleBurger} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="bi bi-list"></span>
@@ -32,6 +32,9 @@ export default function NavBar() {
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/Quiz">Questionnaire</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/SignIn">Sign In</NavLink>
                             </li>
                         </ul>
                     </div>
