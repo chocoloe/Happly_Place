@@ -1,1 +1,35 @@
+#journalHead, #formLabel {
+    color: White;
+}
 
+#formButton {
+    background-color: #AAD1C5;
+    color: black;
+}
+  
+#formButton:hover {
+    background-color: #8cada3;
+    color: black;
+}
+  
+#formButton:disabled {
+    background-color: #b1b1b1;
+    color: black;
+}
+  
+#entryCard {
+    background-color: #5B9088;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 0.5px;
+}
+  
+#enterBody, #enterTitle {
+    background-color: #E2E3E5;
+}
+  
+#dateTag {
+    background-color: #A29255!important;
+    color: black;
+}
+  
