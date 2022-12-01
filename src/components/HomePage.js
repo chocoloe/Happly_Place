@@ -55,10 +55,10 @@ export default function HomePage() {
                     <section className="stats">
                         <div className="container">
                             <div className="row">
-                                <div className="stats-video col-s-12 col-lg-6">
+                                <div className="stats-video col-s-12 col-lg-5">
                                     <iframe width="751" height="480" src="https://www.youtube.com/embed/4g_QzVuVU2I" title="Mental Health and Wellness for Students of Color: Transitioning to College" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
-                                <div className="stats-content col-s-12 col-lg-6">
+                                <div className="stats-content col-s-12 col-lg-7">
                                     <h2>Underrepresented College Students and Mental Health </h2>
                                     <h3>
                                         Quick Statistics and Facts 
