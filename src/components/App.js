@@ -1,5 +1,5 @@
 import React from 'react';
-import Quiz from './Quiz';
+import SurveyComponent from './SurveyComponent';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Signin from './SignIn';
 import HomePage from './HomePage';
@@ -12,7 +12,7 @@ function App(props) {
         <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/signin" element={<Signin />} />
-            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/quiz" element={<SurveyComponent />} />
             <Route path="/results" element={<Results />} />
         </Routes> 
     );
