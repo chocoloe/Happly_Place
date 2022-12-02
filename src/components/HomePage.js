@@ -15,8 +15,9 @@ export default function HomePage() {
                 <body>
                     <section className="feature-selection">
                         <h2>What is your focus for today?</h2>
-                        <div class="container">
-                            <div className="card feature-journal">
+                        <div className="container">
+                            <div className="row">
+                            <div className="card feature-journal col-md-6">
                                 <div className="card-body">
                                         <div className="card-title text-center">
                                             Journal 
@@ -29,12 +30,12 @@ export default function HomePage() {
                                             Start Writing
                                             </Link>
                                         </button> */}
-                                        <a href="./Journaling" className="btn btn-info" role="button">
+                                        <a href="./Journaling" className="btn btn-info" role="button" aria-label="navigates to the journaling page">
                                             Start Writing
                                         </a>
                                 </div>
                             </div>
-                            <div className="card feature-questionnaire">
+                            <div className="card feature-questionnaire col-md-6">
                                 <div className="card-body">
                                         <div className="card-title text-center">
                                             Questionnaire
@@ -45,10 +46,11 @@ export default function HomePage() {
                                         {/* <button type="button" class="btn btn-light">    
                                             Take the questionnaire
                                         </button> */}
-                                        <a href="./Quiz" className="btn btn-info" role="button">
+                                        <a href="./Quiz" className="btn btn-info" role="button" aria-label="navigates to the questionnaire page">
                                             Take the Questionnaire
                                         </a>
                                 </div>
+                            </div>
                             </div>
                         </div>
                     </section>
@@ -84,7 +86,7 @@ export default function HomePage() {
                     <section className="about">
                         <div className="container">
                             <div className="row">
-                                <div className="about-content col-lg-6">
+                                <div className="about-content col-lg-7">
                                     <h2>About Us</h2>
                                         <h3>What is Happy Place</h3>
                                         <p>Happy Place is an application that allows underrepresented college students at the University of Washington to access quality mental health care. </p>
@@ -105,7 +107,7 @@ export default function HomePage() {
                                         We are a group of University of Washington students in INFO 442 seeking to address the following statement with our app: "How might we provide underrepresented students at UW access to specialized mental health resources in order to overcome their mental health struggles?"
                                     </p>
                                 </div>
-                                <div className="about-image col-lg-6">
+                                <div className="about-image col-lg-5">
                                     <img src="../img/College-Student-Mental-Health.jpg" alt="illustration of young women struggling with her mental health" />
                                 </div>
                             </div>
