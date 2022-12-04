@@ -30,7 +30,7 @@ export default function HomePage() {
                                             Start Writing
                                             </Link>
                                         </button> */}
-                                        <a href="./Journaling" className="btn btn-info" role="button" aria-label="navigates to the journaling page">
+                                        <a href="./Journaling" className="btn btn-info journal-button" role="button" aria-label="navigates to the journaling page">
                                             Start Writing
                                         </a>
                                 </div>
@@ -46,7 +46,7 @@ export default function HomePage() {
                                         {/* <button type="button" class="btn btn-light">    
                                             Take the questionnaire
                                         </button> */}
-                                        <a href="./Quiz" className="btn btn-info" role="button" aria-label="navigates to the questionnaire page">
+                                        <a href="./Quiz" className="btn btn-info quiz-button" role="button" aria-label="navigates to the questionnaire page">
                                             Take the Questionnaire
                                         </a>
                                 </div>
