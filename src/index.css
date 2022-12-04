@@ -1,1 +1,131 @@
+body {
+    background-color: #004643;
+    color:#FFFFFF;
+    font-family: 'Roboto';
+}
+
+#surveyPage {
+    background-color: white;
+}
+
+footer {
+    background-color: #F9BC60;
+    color:black; 
+    font-family: 'Roboto';
+    padding: 0.5rem 1rem;
+    position:relative;
+}
+
+nav {
+    background-color: #F9BC60; 
+}
+
+.home-page-content header h1 {
+    color:#F9BC60;
+}
+
+.home-page-content h2 {
+    margin: 1rem 0rem;
+}
+
+.home-page-content .card-title {
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.home-page-content button{
+    background-color: #F9BC60;
+}
+
+.home-page-content .card {
+    background-color: rgba(171, 209, 198, 0.53);
+    border-color: #ABD1C6;
+}
+
+.home-page-content .card-text {
+    margin-bottom:1rem;
+}
+
+a.journal-button{
+    margin-left:3rem;
+    margin-right:3rem;
+}
+
+a.quiz-button{
+    margin-left:3.5rem; 
+}
+
+
+
+/* NavLink {
+    color:#FFFFFF;
+} */
+
+.feature-selection {
+    padding-bottom: 1rem;
+    margin:2rem;
+}
+
+.stats {
+    background-color: #ABD1C6;
+    margin:2rem 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:black;
+}
+
+.about {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color:#F9BC60 ;
+}
+
+/* .home-page-content card a{
+    justify-content: center;
+} */
+
+iframe {
+    max-width: 100%;
+}
+
+.home-page-content img{
+    max-width:100%;
+}
+
+@media (max-width:575px )
+{
+
+    .feature-selection {
+        padding-bottom: 1rem;
+    }
+
+    .home-page-content .card {
+        padding-bottom:1rem;
+        margin-bottom:2rem;
+    }
+}
+
+@media (min-width:576px) 
+{
+    .feature-selection {
+        padding-bottom: 1rem;
+    }
+
+    .home-page-content .card {
+        padding-bottom:1rem;
+        margin-bottom:2rem;
+    }
+
+    /* a.journal-button{
+        margin-left:6rem; 
+    }
+    
+    a.quiz-button{
+        margin-left:3.5rem; 
+    } */
+    
+}
+
 
