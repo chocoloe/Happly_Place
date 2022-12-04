@@ -41,6 +41,7 @@ class Form extends Component {
                     id="enterTitle"
                     value={title}
                     onChange={this.handleChange}
+                    maxLength={30}
                     />
                 <label className="ms-1" id="formLabel">Entry</label>
                 <Input 
