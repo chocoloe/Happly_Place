@@ -54,6 +54,10 @@ const surveyJson = {
 function SurveyComponent() {
   
 	const survey = new Model(surveyJson);
-	return <Survey model={survey} />
+    return (
+        <div id="surveyPage">
+            <Survey model={survey} />
+        </div>
+    )
 }
 export default SurveyComponent;

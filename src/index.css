@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto';
 }
 
+#surveyPage {
+    background-color: white;
+}
+
 footer {
     background-color: #F9BC60;
     color:black; 
