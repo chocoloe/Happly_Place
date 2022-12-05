@@ -45,7 +45,7 @@ const Entries = (props) => {
             <div>
                     <EntryBody entryData={entryData} removeEntry={removeEntry}/>
             </div>
-        )
+        );
 
 }
 

@@ -7,7 +7,7 @@ class Form extends Component {
 
         this.initialState = {
             title: '',
-            body: '',
+            body: ''
         }
 
         this.state = this.initialState

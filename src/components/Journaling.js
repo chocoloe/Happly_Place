@@ -5,10 +5,9 @@ import Form from './Form';
 
 class Journaling extends Component {
   state = {
-    entries:[
-
-    ]
-  }
+    entries: []
+  };
+  
 
   removeEntry = index => {
     const { entries } = this.state
@@ -26,7 +25,8 @@ class Journaling extends Component {
 
     render() {
       const { entries } = this.state;
-        return ( 
+
+      return ( 
           <div className = "Journaling">
             <h1 className="m-3" id="journalHead">Your Journal</h1> 
             <Alert className="ms-3 me-3" color="secondary">
