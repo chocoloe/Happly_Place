@@ -129,3 +129,14 @@ iframe {
 }
 
 
+.resources {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.resources img{
+    object-fit: cover;
+}
