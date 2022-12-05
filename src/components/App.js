@@ -5,6 +5,10 @@ import Signin from './SignIn';
 import HomePage from './HomePage';
 import Results from './Results';
 import Journaling from './Journaling';
+import UrgentResources from './UrgentResources';
+import Therapy from './Therapy';
+import Community from './Community';
+import SelfCare from './SelfCare';
 
 
 function App(props) {
@@ -16,6 +20,10 @@ function App(props) {
             <Route path="/quiz" element={<SurveyComponent />} />
             <Route path="/results" element={<Results />} />
             <Route path="/journaling" element={<Journaling />} />
+            <Route path="/urgentresources" element={<UrgentResources />} />
+            <Route path="/nonurgenthelp" element={<Therapy />} />
+            <Route path="/community" element={<Community />} />
+            <Route path="/selfcare" element={<SelfCare />} />
         </Routes> 
     );
     // should sign-in route be nested in the homepage route?
