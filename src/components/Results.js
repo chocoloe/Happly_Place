@@ -317,6 +317,3 @@ export default function Results() {
             </CardGroup>
         </div> 
     );
-    
-
-}
