@@ -53,6 +53,9 @@ const surveyJson = {
 
 function SurveyComponent() {
 	const survey = new Model(surveyJson);
+	// survey.completedHtml = '<NavLink to="/Results">Here</NavLink>';
+	survey.showCompletedPage = false;
+	survey.navigateToUrl = "/Results";
     return (
         <div id="surveyPage">
             <Survey model={survey} />
