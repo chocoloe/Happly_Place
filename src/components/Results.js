@@ -316,4 +316,4 @@ export default function Results() {
                 </Card>
             </CardGroup>
         </div> 
-    );
+    )}
