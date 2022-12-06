@@ -82,6 +82,21 @@ export default function SelfCare() {
                     </CardBody>
                 </Card>
             </CardGroup>
+            <div class="prompts">
+                <h2>Here are some journaling prompts that may help you:</h2>
+                <ol type="1">
+                    <li>Write for 10 minutes about something or someone you are grateful for. </li>
+                    <li>What are five things about yourself that you are proud of? Explain why.</li>
+                    <li>Do you think your identity has shaped your values in any way? If so, explain why you think so and give examples of values.</li>
+                    <li>Write a letter to someone you are grateful for.</li>
+                    <li>What are some things you like to do for fun? Write out a plan to do at least one of these things this week. </li>
+                    <li>Write affirmations about your personal life, academic year/term, social life, career, and goals. </li>
+                    <li>How does your identity and background influence how you define happiness?</li>
+                    <li>What does happiness mean to you? What does it look like? What’s one thing you can do to feel happy this week?</li>
+                    <li>What are some things you are looking forward to one week from now? One month from now? One year from now? Several years from now?</li>
+                </ol> 
+                <a href="./Journaling" aria-label="navigates to the journaling page">Start Writing</a>
+            </div>
         </main>
         <footer>
             <Footer />
