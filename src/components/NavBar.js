@@ -40,7 +40,7 @@ export default function NavBar() {
                                 <NavLink className="nav-link" to="/Quiz">Questionnaire</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/Quiz">Resources</NavLink>
+                                <NavLink className="nav-link" to="/Resources">Resources</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/SignIn">Sign In</NavLink>
