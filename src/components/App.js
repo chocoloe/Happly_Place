@@ -9,6 +9,7 @@ import UrgentResources from './UrgentResources';
 import Therapy from './Therapy';
 import Community from './Community';
 import SelfCare from './SelfCare';
+import Resources from './Resources';
 
 
 function App(props) {
@@ -24,6 +25,7 @@ function App(props) {
             <Route path="/nonurgenthelp" element={<Therapy />} />
             <Route path="/community" element={<Community />} />
             <Route path="/selfcare" element={<SelfCare />} />
+            <Route path="/resources" element={<Resources />} />
         </Routes> 
     );
     // should sign-in route be nested in the homepage route?

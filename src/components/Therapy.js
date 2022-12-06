@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, CardGroup, Card, CardTitle, CardSubtitle, CardBody, CardText } from 'reactstrap';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Therapy() {
     
@@ -103,7 +104,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">UW Drop-In Counseling</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Virtual "Let's Talk"</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://play-lh.googleusercontent.com/otMQBOueuiS6mxADdmn-eDzdOChnQmUKrW1OCnwTf69bwrHP03N1KiKNp6iw6Kec0f6R" height="250px"/>
+                    <img alt="Sample" src="https://s3-us-west-1.amazonaws.com/companies.comparably.com/47615/47615_logo_university-of-washington.png" height="250px"/>
                     <CardBody>
                         <CardText>
                         Virtual Let’s Talk is a program that connects UW students with support from experienced counselors from the Counseling Center without an appointment.
@@ -138,6 +139,22 @@ export default function Therapy() {
                     </CardBody>
                 </Card>
             </CardGroup>
+            <div class="prompts">
+                <h2>Here are some journaling prompts that may help you:</h2>
+                <ol type="1">
+                    <li>Write about something that’s been on your mind lately. Explain the situation and how it makes you feel.</li>
+                    <li>If you’re thinking of meeting with a mental health professional from one of the resources we’ve provided, what might you want to discuss with them? Prepare a list of questions and/or situations you might want to discuss.</li>
+                    <li>Take a couple of deep breaths and do a power pose for three minutes. Put away distractions such as phones, computers, etc. Compare how you felt before, during, and after the three minutes. Did this experience help you calm down? Did you feel any physical changes, such as a lowered heart rate, muscles relaxing, etc?</li>
+                    <li>Think about your daily routine and reflect on how it might be impacting your mental wellbeing. Examples include social media use, turning on ringer for notifications, sleep habits, diet, etc. If you’ve identified any places that could use improvement, write down some steps you could take to change those habits.</li>
+                    <li>Have you noticed a change in your mental health depending on the weather, season, and/or time of day? </li>
+                    <li>Write a letter of forgiveness to yourself</li>
+                    <li>Have you ever felt that your identity was misunderstood? If so, in what ways and what would you like others to understand about your identity?</li>
+                    <li>Have you ever felt isolated because you didn’t quite understand the environment and/or culture around you? If so, what part of the culture and/or environment would you like to learn more about?</li>
+                    <li>What boundaries could you set in your relationships to safeguard your own wellbeing?</li>
+                    <li>Repeat the following affirmations to yourself in the mirror everyday for one week: “I am not an imposter,” “My identity is powerful,” “I am valuable,” “I belong here,” “My unique perspectives are important,” “My voice matters.” At the end of each day, explain how these affirmations make you feel and how it contributes to your day.</li>
+                </ol> 
+                <a href="./Journaling" aria-label="navigates to the journaling page">Start Writing</a>
+            </div>
         </main>
         <footer>
             <Footer />
