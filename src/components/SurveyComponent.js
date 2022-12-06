@@ -48,6 +48,46 @@ const surveyJson = {
 		  "Yes",
 		  "No"
 		]
+	  }, {
+		name: "Q5",
+		title: "In the past two weeks, how often have you felt down, depressed, or hopeless?",
+		type: "radiogroup",
+		choices: [
+		  "Never",
+		  "Sometimes",
+		  "Often",
+		  "Very Often"
+		]
+	  }, {
+		name: "Q6",
+		title: "In the past two weeks, how often has your mental health interfered with your personal relationships or your ability to complete tasks?",
+		type: "radiogroup",
+		choices: [
+		  "Never",
+		  "Sometimes",
+		  "Often",
+		  "Very Often"
+		]
+	  }, {
+		name: "Q7",
+		title: "Are you currently having or have you recently had any thoughts of self-harm or suicide?",
+		type: "radiogroup",
+		choices: [
+		  "Never",
+		  "Sometimes",
+		  "Often",
+		  "Very Often"
+		]
+	  }, {
+		name: "Q8",
+		title: "In the past two weeks, how often have you felt like you were acting uncharacteristically, going to “explode”, or didn't have control over your body and mind?",
+		type: "radiogroup",
+		choices: [
+		  "Never",
+		  "Sometimes",
+		  "Often",
+		  "Very Often"
+		]
 	  }]
   };
 
