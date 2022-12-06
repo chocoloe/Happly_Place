@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import App from './components/App'; // should this be ./App.js?
 import {initializeApp} from "firebase/app";
 import { Route, Routes, BrowserRouter, Outlet, Link } from 'react-router-dom'; // i think this is redundant, but can't figure out how to get it running otherwise

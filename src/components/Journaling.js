@@ -5,10 +5,9 @@ import Form from './Form';
 
 class Journaling extends Component {
   state = {
-    entries:[
-
-    ]
-  }
+    entries: []
+  };
+  
 
   removeEntry = index => {
     const { entries } = this.state
@@ -26,11 +25,12 @@ class Journaling extends Component {
 
     render() {
       const { entries } = this.state;
-        return ( 
+
+      return ( 
           <div className = "Journaling">
             <h1 className="m-3" id="journalHead">Your Journal</h1> 
             <Alert className="ms-3 me-3" color="secondary">
-              Something talking about the benefits of journaling and how it can help them understand their mental health better. Your journal entries are private and can only be read by you!
+              Journaling can help you better understand your mental health and gives you the opportunity to record your feelings privately. Remember, your journal entries are secure and can only be read by you!
             </Alert>
             <Form handleSubmit={this.handleSubmit}/>
             <Entries entryData={entries} removeEntry={this.removeEntry}/>
