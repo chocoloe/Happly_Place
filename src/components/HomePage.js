@@ -9,10 +9,10 @@ export default function HomePage() {
         <div className="home-page-content">
             <header>
                 <NavBar />
-                <h1>Happy Place</h1>
             </header>
             <main>
                 <body>
+                    <h1>Happy Place</h1>
                     <section className="feature-selection">
                         <h2>What is your focus for today?</h2>
                         <div className="container">
