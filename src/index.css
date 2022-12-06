@@ -20,7 +20,13 @@ nav {
     background-color: #F9BC60; 
 }
 
-.home-page-content header h1 {
+main {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
     color:#F9BC60;
 }
 
@@ -54,7 +60,6 @@ a.journal-button{
 a.quiz-button{
     margin-left:3.5rem; 
 }
-
 
 
 /* NavLink {
@@ -139,4 +144,34 @@ iframe {
 
 .resources img{
     object-fit: cover;
+}
+
+.resources h1, .resources h2, .resources h3{
+    margin-bottom: 20px;
+}
+
+.resources h2, .resources h3{
+    color: white;
+}
+
+.resources h3, .resources h4 {
+    font-size:20px;
+}
+
+.prompts {
+    background-color: #ABD1C6 ;
+    padding: 20px;
+    margin-bottom: 20px;
+} 
+
+.prompts h2 {
+    color: black;
+}
+
+.prompts p a,  .prompts h4 a, .prompts a {
+    color: black;
+}
+
+.prompts p a:hover,  .prompts h4 a:hover, .prompts a:hover {
+    color: #e16162;
 }

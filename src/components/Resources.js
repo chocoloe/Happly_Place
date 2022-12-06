@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 
-export default function Results() {
+export default function Resources() {
     
     return(
         <div>
@@ -13,9 +13,7 @@ export default function Results() {
             <NavBar />
         </header>
         <main class="results resources">
-            <h1>Thank you for completing our questionnaire!</h1>
-            <h2>We encourage you to fill it out every once in a while as a self-check on your mental health. </h2>
-            <h3>Mental health is a continuous  work in progress; please use these general and identity-specific resources to support your mental health journey.</h3>
+            <h1>Resources</h1>
             <Row>
                 <Col>
                         <Card className="mb-4">

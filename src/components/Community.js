@@ -53,6 +53,32 @@ export default function Community() {
                     </CardBody>
                 </Card>
             </CardGroup>
+            <div class="prompts">
+                <h2>Student Organizations</h2>
+                <p>Resgistered Student Organizations are a great way to meet other people, especially those with similar interests and backgrounds as you. The University of Washington offers over a hundred different organizations, and these are just a few examples. If none of these peak your interest, we encourage you to look through the <a href="https://huskylink.washington.edu/">RSO directory</a> for a more suitable option for you.</p>
+                <h4><a href="">Louis Stokes Alliance for Minority Participation</a></h4>
+                <p>The Louis Stokes Alliance for Minority Participation (LSAMP) is designed to increase the quality and number of students from under-represented minority groups who complete undergraduate degrees in science, technology, engineering, and mathematics (STEM).</p>
+                <h4><a href="">African Student Association</a></h4>
+                <p>The African Students Association at UW strives to spread cultural awareness throughout this institution, engage in community service through high school outreach, and provide social & academic networks of equally accomplished individuals to its members.</p>
+                <h4><a href ="">Black Student Union</a></h4>
+                <p>The purpose of this organization is to establish a cohesive union between Black students, Black faculty, other Black organizations and the greater UW community.</p>
+                <h4><a href ="">Husky Help Organization</a></h4>
+                <p>HHO dedicates on helping international students at UW, especially Chinese students, to understand resources on campus and in Seattle, fitting themselves better in the new living/social/studying environment.</p>
+                <h4><a href ="">Indigenous Students of Latin America</a></h4>
+                <p>Safe Place for Indiegenous Students whose families are from an indigenous community in Latin America.</p>
+                <h4><a href ="">DASA - University of Washington’s Disability Advocacy Student Alliance</a></h4>
+                <p>For students with disabilities</p>
+                <h4><a href ="">Evans International Student Association</a></h4>
+                <p>EISA aims to provide community and professional support to all international students at Evans, creating a space for their voices to be heard, celebrated and shared with the wider student community.</p>
+                <h4><a href ="">Trans Collected at University of Washington</a></h4>
+                <p>Aims to center trans jor and resilience through community building and to dismantle cis normative ideals.</p>
+                <h4><a href ="">Queer People of Color Alliance</a></h4>
+                <p>Supports queer and trans folks of color to build and share community, make friends, have fun, and discuss race, ethnicity, gender and sexuality as it relates to our lives, experiences and marginalization</p>
+                <h4><a href ="">Minorities in Tech at the University of Washington</a></h4>
+                <p>Build and foster a diverse community that increases solidarity, allyship, and support to promote higher retention rates of minorities within the technology industry and academia with focus on supporting Black and Latinx students.</p>
+                <h4><a href ="">Latine Student Union at the University of Washington</a></h4>
+                <p>Committed to building a friendly, supportive and empowering community for Latine students from different cultural and racial backgrounds</p>
+            </div>
             <h2>General Resources</h2>
             <CardGroup>
                 <Card className="mb-4">
@@ -92,6 +118,20 @@ export default function Community() {
                     </CardBody>
                 </Card>
             </CardGroup>
+            <div class="prompts">
+                <h2>Here are some journaling prompts that may help you:</h2>
+                <ol type="1">
+                    <li>What are some values that you would like your friends and acquaintances to share?</li>
+                    <li>What does a community that accepts and welcomes your identity look like?</li>
+                    <li>What do you look for in quality friendships?</li>
+                    <li>Do you have any concerns about forming friendships with others? </li>
+                    <li>How do you know that a community is supportive of your backgrounds/ identity? </li>
+                    <li>How might you confront someone who is not being supportive or welcoming of your identity?</li>
+                    <li>What kind of people do you want to be friends with? What kind of friend would you want to be for others?</li>
+                    <li>What are three actions you can take this week to expand your network and meet new people?</li>
+                </ol> 
+                <a href="./Journaling" aria-label="navigates to the journaling page">Start Writing</a>
+            </div>
         </main>
         <footer>
             <Footer />
