@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import { getAuth, EmailAuthProvider, GoogleAuthProvider } from 'firebase/auth';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import NavBar from './NavBar';
 
 const FIREBASEUI_CONFIG_OBJ = {
@@ -10,10 +10,12 @@ const FIREBASEUI_CONFIG_OBJ = {
     ],
     // for external sign-ins, show a popup login, don't redirect the page
     signInFlow: 'popup',
-    callbacks: {
+    callbacks:{
         //what to do after I successfully sign in (functions that get run) just return false -- makes sure it doesn't redirects 
-        signInSuccessWithAuthResults: () => false
+        signInSuccess: () => false,
+        signInSuccessWithAuthResults: () => false,
     },
+    
     // to avoid showing account chooser (such as ' you previously signed in as this person, do you wanna sign in as them again?)
     credentialHelper: 'none',
 }

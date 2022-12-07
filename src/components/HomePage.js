@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 
+
 export default function HomePage() {
-    
+
     return(
         <div className="home-page-content">
             <NavBar />
