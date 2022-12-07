@@ -17,6 +17,7 @@ function App(props) {
     const nullUser = {userId:null, userName:null}
     const [currentUser, setCurrentUser] = useState(nullUser);
     const navigateTo = useNavigate();
+    const [isSignedIn, setSignInStatus] = useState(false);
 
     useEffect(() => {
 
@@ -27,9 +28,11 @@ function App(props) {
             if(firebaseUser) { //is defined, so logged in
                 console.log("authentification state changed");
                 console.log(firebaseUser);
-                firebaseUser.userID = firebaseUser.uid;
+                //add in keys for the terms we want to use
+                firebaseUser.userId = firebaseUser.uid;
                 firebaseUser.userName = firebaseUser.displayName;
                 setCurrentUser(firebaseUser);
+                setSignInStatus(true);
             }
             else { //not defined, so logged out
                 setCurrentUser(nullUser);
@@ -40,7 +43,7 @@ function App(props) {
 
         const loginUser = (userObject) => {
             setCurrentUser(userObject);
-            navigateTo('/');
+            navigateTo("/");
         }
 
     return (
@@ -57,7 +60,6 @@ function App(props) {
             <Route path="/resources" element={<Resources />} />
         </Routes> 
     );
-    // should sign-in route be nested in the homepage route?
 }
 
 export default App;

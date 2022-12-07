@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
+import { Navigate, useNavigate } from 'react-router-dom';
 import { getAuth, EmailAuthProvider, GoogleAuthProvider } from 'firebase/auth';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import NavBar from './NavBar';
 
 const FIREBASEUI_CONFIG_OBJ = {
+
     // sign in options displayed 
     signInOptions: [
         {provider: EmailAuthProvider.PROVIDER_ID, requireDisplayName: true}, GoogleAuthProvider.PROVIDER_ID
@@ -13,7 +15,10 @@ const FIREBASEUI_CONFIG_OBJ = {
     callbacks:{
         //what to do after I successfully sign in (functions that get run) just return false -- makes sure it doesn't redirects 
         signInSuccess: () => false,
-        signInSuccessWithAuthResults: () => false,
+        signInSuccessWithAuthResults: () => {
+            return false;
+        }
+
     },
     
     // to avoid showing account chooser (such as ' you previously signed in as this person, do you wanna sign in as them again?)
@@ -23,6 +28,10 @@ const FIREBASEUI_CONFIG_OBJ = {
 export default function SignIn(props) {
 
     const auth = getAuth(); // firebase authenticator
+
+    // if(props.currentUser.userId){
+    //     return <Navigate to="/" />
+    // }
 
     return (
         <div>

@@ -98,10 +98,6 @@ a.quiz-button{
 }
 
 
-/* NavLink {
-    color:#FFFFFF;
-} */
-
 .feature-selection {
     padding-bottom: 1rem;
     margin:2rem;
@@ -184,6 +180,10 @@ iframe {
     .home-page-content .card {
         padding-bottom:1rem;
         margin-bottom:2rem;
+    }
+
+    nav {
+        max-width: none;
     }
 }
 
