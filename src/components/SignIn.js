@@ -27,7 +27,19 @@ const FIREBASEUI_CONFIG_OBJ = {
 
 export default function SignIn(props) {
 
+    const currentUser = props.currentUser;
+
     const auth = getAuth(); // firebase authenticator
+
+    const handleClick = (event) => {
+        const whichUser = event.currentTarget.name 
+        const userObj = {
+            userId: whichUser.toLowerCase() || null,
+            userName: whichUser || null
+        }
+        props.loginFunction(userObj)
+    }
+    
 
     // if(props.currentUser.userId){
     //     return <Navigate to="/" />
