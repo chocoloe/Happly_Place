@@ -11,7 +11,7 @@ export default function HomePage() {
             <NavBar />
             <main>
                 <body>
-                    <h1>Happy Place</h1>
+                    {/* <h1>Happy Place</h1> */}
                     <section className="feature-selection">
                         <h2>What is your focus for today?</h2>
                         <div className="container">

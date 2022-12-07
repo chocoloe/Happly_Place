@@ -24,10 +24,9 @@ function App(props) {
         const auth = getAuth();
 
         onAuthStateChanged(auth, (firebaseUser) => {
-            if(firebaseUser) { //is defined, so logged in
+            if(firebaseUser) { 
                 console.log("authentification state changed");
                 console.log(firebaseUser);
-                //add in keys for the terms we want to use
                 firebaseUser.userId = firebaseUser.uid;
                 firebaseUser.userName = firebaseUser.displayName;
                 setCurrentUser(firebaseUser);
@@ -41,7 +40,13 @@ function App(props) {
 
         const loginUser = (userObject) => {
             setCurrentUser(userObject);
-            navigateTo("/");
+            navigateTo('/');
+        }
+
+        function ProtectedPage(props) {
+            if(!props.currentUser.uid) {
+                return <Navigate to="/SignIn" />
+            }
         }
 
     return (
