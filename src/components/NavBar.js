@@ -1,9 +1,16 @@
 import { React , useState} from 'react'; //import React library
 import { NavLink } from "react-router-dom";
-
+import { getAuth, signOut } from 'firebase/auth';
 
 // Creates the navbar with it's link to other pages 'home' ' journaling 'Questionnaire'
-export default function NavBar() {
+export default function NavBar(props) { // passing in props breaks the code but I would need it for lines 8-13...
+
+    // const currentUser = currentUser.userId;
+
+    // const handleSignOut = (event) => {
+    //     console.log("signing out");
+    //     signOut(getAuth());
+    // }
 
     const [burgerOpen, setBurgerOpen] = useState (false);
 
@@ -42,9 +49,19 @@ export default function NavBar() {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/Resources">Resources</NavLink>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <NavLink className="nav-link" to="/SignIn">Sign In</NavLink>
+                            </li> */}
+
+                            {/* {!currentUser &&
+                            <li className="nav-item">
+                                <NavLink to="/Signin" className="nav-link" >Sign In</NavLink>
+                            </li> }
+                            {currentUser && <>
+                            <li className="nav-item">
+                            <button className="btn btn-secondary ms-2" onClick={handleSignOut}>Sign Out</button>
                             </li>
+                            </> } */}
                         </ul>
                     </div>
                 </div>

@@ -11,13 +11,12 @@ import Community from './Community';
 import SelfCare from './SelfCare';
 import Resources from './Resources';
 
-import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
 
 function App(props) {
     const nullUser = {userId:null, userName:null}
     const [currentUser, setCurrentUser] = useState(nullUser);
     const navigateTo = useNavigate();
-    const [isSignedIn, setSignInStatus] = useState(false);
 
     useEffect(() => {
 
@@ -32,7 +31,6 @@ function App(props) {
                 firebaseUser.userId = firebaseUser.uid;
                 firebaseUser.userName = firebaseUser.displayName;
                 setCurrentUser(firebaseUser);
-                setSignInStatus(true);
             }
             else { //not defined, so logged out
                 setCurrentUser(nullUser);
