@@ -53,6 +53,7 @@ footer {
 
 nav {
     background-color: #F9BC60; 
+    /* position:fixed; */
 }
 
 main {
@@ -97,10 +98,6 @@ a.quiz-button{
 }
 
 
-/* NavLink {
-    color:#FFFFFF;
-} */
-
 .feature-selection {
     padding-bottom: 1rem;
     margin:2rem;
@@ -121,10 +118,6 @@ a.quiz-button{
 .btn {
     background-color:#F9BC60 ;
 }
-
-/* .home-page-content card a{
-    justify-content: center;
-} */
 
 iframe {
     max-width: 100%;
@@ -188,6 +181,10 @@ iframe {
         padding-bottom:1rem;
         margin-bottom:2rem;
     }
+
+    nav {
+        max-width: none;
+    }
 }
 
 @media (min-width:576px) 
@@ -200,14 +197,6 @@ iframe {
         padding-bottom:1rem;
         margin-bottom:2rem;
     }
-
-    /* a.journal-button{
-        margin-left:6rem; 
-    }
-    
-    a.quiz-button{
-        margin-left:3.5rem; 
-    } */
     
 }
 
