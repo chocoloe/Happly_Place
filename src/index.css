@@ -88,14 +88,14 @@ h1 {
     margin-bottom:1rem;
 }
 
-a.journal-button{
+/* a.journal-button{
     margin-left:3rem;
     margin-right:3rem;
 }
 
 a.quiz-button{
     margin-left:3.5rem; 
-}
+} */
 
 
 .feature-selection {
@@ -201,11 +201,8 @@ iframe {
 }
 
 @media (min-width:1200px) {
-    a.journal-button{
-       margin-left: 230px;
-   }
    
    a.quiz-button{
-       margin-left:190px; 
+       margin-top:20px; 
    }  
 }
