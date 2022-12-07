@@ -1,5 +1,5 @@
 # @ Happy Place
-<p>Find us here:</p>
+<p>Find us here: https://info442-group4-happyplace.web.app/ </p>
 <h2>About Happy Place</h2>
 <br/>
 <p>A common theme we found in our research was that underrepresented college students were particularly impacted by mental health challenges. Relative to their counterparts, more underrepresented college students were struggling with mental health issues. We believe it’s essential to provide a platform better equipped with a more specialized set of resources to help them overcome these issues. Additionally, current resources are lacking and inaccessible because of various barriers. Especially after the COVID-19 pandemic, mental health resources accessible to students have been decreasing in spite of a rising rate of college students with mental health issues. With adequate ways to access and receive help dwindling, we wish to take it upon ourselves to create a free and accessible method of overcoming mental health struggles. This made us wonder:</p>
@@ -13,16 +13,12 @@ Happy Place is an application that allows underrepresented students at the Unive
 <li>Mission Statement and description of happy place</li>
 <li>Log in/ Sign up </li>
 <li>Journaling Feature </li>
-<li>History of previous journal entries </li>
-<li>Sortable by favorites, date created, and title (a-z)</li>
-<li>Ability to export journal entries – save as pdf, send to email, etc.</li>
-<li>Ability to edit previous entries </li>
 <li>Create a journal entry </li>
-<li>Choose a journal prompt or </li>
+<li>Choose a journal prompt from resource page or create your own </li>
+<li>History of previous journal entries </li>
 <li>Questionaire </li>
-<li>10-15 questions that are relevant and relatable to underrepresented groups </li>
+<li>questions that are relevant and relatable to underrepresented groups </li>
 <li>Recommends specific resources and journaling prompts depending on their answers </li>
-<li>Visualization and description of their results </li>
 </ul>
 <h2>The Team</h2>
 <p>Happy Place is constructed by Brenda Obonyo, Selena Ando, Jacob Hitchcock, Chloe Hu, Rhea Guliani.</p>

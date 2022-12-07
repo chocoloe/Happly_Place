@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Button, Form, Row, Col, Badge, Card, CardBody, CardHeader, CardText } from 'reactstrap';
 
 const EntryBody = props => {
+    // Creates date object to be displayed with journal entry
     const current = new Date();
+    // Formate date
     const date = `${current.getMonth()+1}/${current.getDate()}/${current.getFullYear()}`;
     const cardLines = (
         <Row>
@@ -14,10 +16,10 @@ const EntryBody = props => {
                                 <Row>
                                     <Col>
                                         <h2>{line.title}</h2>
-                                        <Badge id="dateTag">{date}</Badge>
+                                        <Badge id="dateTag" aria-label="date">{date}</Badge>
                                     </Col>
                                     <Col>
-                                        <Button color='danger' className='float-end text-ent ms-3 mb-3 mt-3' onClick={() => props.removeEntry(index)}>Delete</Button>
+                                        <Button color='danger' className='float-end text-ent ms-3 mb-3 mt-3' aria-label="delete" onClick={() => props.removeEntry(index)}>Delete</Button>
                                     </Col>
                                 </Row>
                             </Form>
@@ -39,13 +41,13 @@ const EntryBody = props => {
 
 
 const Entries = (props) => {
-
-        const { entryData, removeEntry } = props;
-        return (
-            <div>
-                    <EntryBody entryData={entryData} removeEntry={removeEntry}/>
-            </div>
-        );
+    const { entryData, removeEntry } = props;
+    
+    return (
+        <div>
+            <EntryBody entryData={entryData} removeEntry={removeEntry}/>
+        </div>
+    );
 
 }
 
