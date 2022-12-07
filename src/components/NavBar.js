@@ -22,9 +22,10 @@ export default function NavBar(props) { // passing in props breaks the code but 
     // }
 
     return (
-        <Navbar bg="light" expand="lg"> 
+        <div className='nav-happy'>
+            <Navbar expand="lg"> 
             <Container>
-                <Navbar.Brand href="/">Happy Place</Navbar.Brand>
+                <Navbar.Brand href="/" className="nav-title">Happy Place</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="sm-auto">
@@ -37,5 +38,6 @@ export default function NavBar(props) { // passing in props breaks the code but 
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        </div>
     )
 }
