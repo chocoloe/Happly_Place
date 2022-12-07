@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import { getAuth, EmailAuthProvider, GoogleAuthProvider } from 'firebase/auth';
+import NavBar from './NavBar';
 
 const FIREBASEUI_CONFIG_OBJ = {
     // sign in options displayed 
@@ -23,6 +24,7 @@ export default function SignIn(props) {
 
     return (
         <div>
+            <NavBar />
             <StyledFirebaseAuth firebaseAuth={auth} uiConfig={FIREBASEUI_CONFIG_OBJ} />
         </div>
     )

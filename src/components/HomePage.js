@@ -7,9 +7,7 @@ export default function HomePage() {
     
     return(
         <div className="home-page-content">
-            <header>
-                <NavBar />
-            </header>
+            <NavBar />
             <main>
                 <body>
                     <h1>Happy Place</h1>
