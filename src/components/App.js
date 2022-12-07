@@ -1,7 +1,7 @@
 import React from 'react';
 import SurveyComponent from './SurveyComponent';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import Signin from './SignIn';
+import Signin from './signIn';
 import HomePage from './HomePage';
 import Results from './Results';
 import Journaling from './Journaling';

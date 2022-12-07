@@ -13,6 +13,7 @@ class Form extends Component {
         this.state = this.initialState
     }
 
+    // As form is changed, update state
     handleChange = event => {
         const {name, value } = event.target
 
@@ -38,9 +39,11 @@ class Form extends Component {
                     placeholder="Enter Journal Title"
                     type="text"
                     name="title"
+                    aria-label="journal title"
                     id="enterTitle"
                     value={title}
                     onChange={this.handleChange}
+                    // limit title to 30 characters to keep formatting
                     maxLength={30}
                     />
                 <label className="ms-1" id="formLabel">Entry</label>
@@ -50,12 +53,13 @@ class Form extends Component {
                     type="textarea"
                     rows="10"
                     name="body"
+                    aria-label="journal body"
                     id="enterBody"
                     value={body}
                     onChange={this.handleChange}
                     />
             </form>
-            <Button className="ms-3" id="formButton" disabled={!this.state.title || !this.state.body} onClick={this.submitForm}>Submit</Button>
+            <Button className="ms-3" id="formButton" aria-label="submit" disabled={!this.state.title || !this.state.body} onClick={this.submitForm}>Submit</Button>
             </div>
         )
     }
