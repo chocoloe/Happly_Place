@@ -172,6 +172,7 @@ iframe {
     margin-top:20px;
 }
 
+//media queries for responsive sizing 
 @media (max-width:575px )
 {
 

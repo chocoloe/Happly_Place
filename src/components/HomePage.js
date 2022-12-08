@@ -11,6 +11,7 @@ export default function HomePage() {
             <main>
                 <body>
                     <h1>Home</h1>
+                    {/* first section that brings attention to the two main featues of a journaling app + questionnaire and explains their purpose  */}
                     <section className="feature-selection">
                         <h2>What is your focus for today?</h2>
                         <div className="container">
@@ -23,11 +24,6 @@ export default function HomePage() {
                                         <div className="card-text text-center">
                                             Journaling has shown to help individuals better understand themselves and their feelings, improve mood, and benefit mental wellbeing. No idea what to write? Take the questionnaire to get journal prompt suggestions!
                                         </div>
-                                        {/* <button type="button" class="btn btn-light"> 
-                                            <Link to="/Journaling">     
-                                            Start Writing
-                                            </Link>
-                                        </button> */}
                                         <a href="./Journaling" className="btn btn-info journal-button" role="button" aria-label="navigates to the journaling page">
                                             Start Writing
                                         </a>
@@ -41,9 +37,6 @@ export default function HomePage() {
                                         <div className="card-text text-center">
                                             Take our questionnaire to better understand yourself and for more clarity about your mental state.
                                         </div>
-                                        {/* <button type="button" class="btn btn-light">    
-                                            Take the questionnaire
-                                        </button> */}
                                         <a href="./Quiz" className="btn btn-info quiz-button" role="button" aria-label="navigates to the questionnaire page">
                                             Take the Questionnaire
                                         </a>
@@ -52,6 +45,7 @@ export default function HomePage() {
                             </div>
                         </div>
                     </section>
+                    {/* second section that informs users of the mental health crisis amoung college students and gives more context as to why this is an important issue to solve for underrepresented students */}
                     <section className="stats">
                         <div className="container">
                             <div className="row">
@@ -71,16 +65,17 @@ export default function HomePage() {
                                             Covid-19 introduced a additional set of challenges for college students to navigate through and exacerbated the effects of existing stressors: In a recent study by TimelyMD, they found that 70% of the 1,600 college students they surveyed experienced emotional distress from the COVID-19 pandemic. 
                                         </li>
                                         <li>
-                                            COVID-19 related stress disproportionately affected students from underrepresented and marginalized communities:  76% of women and 81% of non-binary individuals were negatively impacted by COVID-19 related stress according to 
+                                            COVID-19 related stress disproportionately affected students from underrepresented and marginalized communities:  76% of women and 81% of non-binary individuals were negatively impacted by COVID-19 related stress according to TimelyMD.
                                         </li>
                                         <li>
-                                            Some barriers preventing students from these communities in getting the treatment and support they need incude: stigma, supply of resources not meeting high demand, financial complications, and available resources not being a good fit (i.e. lack of understanding towards their unique set of challenges)
+                                            According to Boston University, some barriers preventing students from these communities in getting the treatment and support they need incude: stigma, supply of resources not meeting high demand, financial complications, and available resources not being a good fit (i.e. lack of understanding towards their unique set of challenges). 
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </section> 
+                    {/* final section informs users about our mission statement, who we are, what we're trying to accomplish with our solution, and overall more about us + happy place*/}
                     <section className="about">
                         <div className="container">
                             <div className="row">

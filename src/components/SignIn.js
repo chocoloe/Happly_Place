@@ -6,6 +6,8 @@ import Footer from './Footer.js';
 
 const FIREBASEUI_CONFIG_OBJ = {
 
+    //code was from inspired from Joel Ross's INFO 340 Lecture Demo on firebase authentification
+
     // sign in options displayed 
     signInOptions: [
         {provider: EmailAuthProvider.PROVIDER_ID, requireDisplayName: true}, GoogleAuthProvider.PROVIDER_ID
@@ -40,10 +42,6 @@ export default function SignIn(props) {
         props.loginFunction(userObj)
     }
     
-
-    // if(props.currentUser.userId){
-    //     return <Navigate to="/" />
-    // }
 
     return (
         <div>

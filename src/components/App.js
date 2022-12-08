@@ -21,8 +21,10 @@ function App(props) {
     useEffect(() => {
 
         //note: code for authentification was from INFO 340 Lecture Demo by Joel Ross 
+
         const auth = getAuth();
 
+        //listens to changes in the user Id and state of authentification to determine if someone logged in 
         onAuthStateChanged(auth, (firebaseUser) => {
             if(firebaseUser) { 
                 console.log("authentification state changed");
@@ -50,6 +52,7 @@ function App(props) {
         }
 
     return (
+        //routing
         <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/signin" element={<Signin />} />
