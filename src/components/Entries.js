@@ -1,3 +1,4 @@
+// Handles individual entries and their content
 import React, { Component } from 'react';
 import { Button, Form, Row, Col, Badge, Card, CardBody, CardHeader, CardText } from 'reactstrap';
 
@@ -6,6 +7,7 @@ const EntryBody = props => {
     const current = new Date();
     // Formate date
     const date = `${current.getMonth()+1}/${current.getDate()}/${current.getFullYear()}`;
+    // Journal Entry Format
     const cardLines = (
         <Row>
             {props.entryData.map((line, index) => (

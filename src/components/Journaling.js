@@ -1,3 +1,4 @@
+// Combination of all components of the journaling feature. Handles storage as well
 import React, { Component } from 'react';
 import { Alert } from 'reactstrap';
 import Entries from './Entries';
@@ -23,11 +24,13 @@ class Journaling extends Component {
     }
   }
 
+  // Store on local storage
   handleSubmit = entry => {
     this.setState({ entries: [...this.state.entries, entry]})
     localStorage.setItem('entries', JSON.stringify([...this.state.entries, entry]))
   }
   
+  // Handles removal of journal entry
   removeEntry = index => {
     const { entries } = this.state
 

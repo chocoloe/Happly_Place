@@ -1,3 +1,4 @@
+// Handles the input component of the journaling feature
 import React, { Component } from 'react'
 import { Button, Input } from 'reactstrap';
 
@@ -22,6 +23,7 @@ class Form extends Component {
         })
     }
 
+    // Function to carry out submission of new journal entry
     submitForm = () => {
         this.props.handleSubmit(this.state)
         this.setState(this.initialState)
