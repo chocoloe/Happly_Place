@@ -1,53 +1,43 @@
 import { React , useState} from 'react'; //import React library
-import { NavLink } from "react-router-dom";
-
+import { NavLink, Link} from "react-router-dom";
+import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import { getAuth, signOut } from 'firebase/auth';
 
 // Creates the navbar with it's link to other pages 'home' ' journaling 'Questionnaire'
-export default function NavBar() {
+export default function NavBar(props) { // passing in props breaks the code but I would need it for lines 8-13...
 
-    const [burgerOpen, setBurgerOpen] = useState (false);
 
-    // Handles the toggle action in the Nav bar
-    const toggleBurger = (useState) => {
-        setBurgerOpen(!burgerOpen);
-    }
+    // const [burgerOpen, setBurgerOpen] = useState (false);
+
+    // // Handles the toggle action in the Nav bar
+    // const toggleBurger = (useState) => {
+    //     setBurgerOpen(!burgerOpen);
+    // }
+
+    // const currentUser = props.currentUser.userId;
+
+    // const handleSignOut = (event) => {
+    //     console.log("signing out");
+    //     signOut(getAuth());
+    // }
 
     return (
-        
-            <nav className="navbar navbar-expand-lg">
-                <div className="container-fluid">
-                    {/* <a className="navbar-brand" href="#">Happy Place</a> */}
-
-                    <button className="navbar-toggler float-right" onClick={toggleBurger} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button> */}
-
-                    <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/">Home</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/Journaling">Journaling</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/Quiz">Questionnaire</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/Resources">Resources</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/SignIn">Sign In</NavLink>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+        <div className='nav-happy'>
+            <Navbar expand="lg"> 
+            <Container>
+                <Navbar.Brand href="/" className="nav-title">Happy Place</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="sm-auto">
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="Journaling">Journaling</Nav.Link>
+                        <Nav.Link href="Quiz">Questionnaire</Nav.Link>
+                        <Nav.Link href="Resources">Resources</Nav.Link>
+                        <Nav.Link href="SignIn">Sign In</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+        </div>
     )
 }

@@ -1,18 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 
+
 export default function HomePage() {
-    
+
     return(
         <div className="home-page-content">
-            <header>
-                <NavBar />
-            </header>
+            <NavBar />
             <main>
                 <body>
-                    <h1>Happy Place</h1>
+                    <h1>Home</h1>
                     <section className="feature-selection">
                         <h2>What is your focus for today?</h2>
                         <div className="container">
@@ -58,7 +57,7 @@ export default function HomePage() {
                         <div className="container">
                             <div className="row">
                                 <div className="stats-video col-s-12 col-lg-5">
-                                    <iframe width="751" height="480" src="https://www.youtube.com/embed/4g_QzVuVU2I" title="Mental Health and Wellness for Students of Color: Transitioning to College" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="751" height="480" src="https://www.youtube.com/embed/4g_QzVuVU2I" title="Mental Health and Wellness for Students of Color: Transitioning to College" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen alt="youtube video of a livestream from the Harvard T.H. Chan School of Public Health on Mental Health and Wellness for Students of Color"></iframe>
                                 </div>
                                 <div className="stats-content col-s-12 col-lg-7">
                                     <h2>Underrepresented College Students and Mental Health </h2>

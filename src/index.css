@@ -1,3 +1,38 @@
+#formLabel {
+    color: White;
+}
+  
+#formButton {
+    background-color: #AAD1C5;
+    color: black;
+}
+  
+#formButton:hover {
+    background-color: #8cada3;
+    color: black;
+}
+  
+#formButton:disabled {
+    background-color: #b1b1b1;
+    color: black;
+}
+  
+#entryCard {
+    background-color: #5B9088;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 0.5px;
+}
+  
+#enterBody, #enterTitle {
+    background-color: #E2E3E5;
+}
+  
+#dateTag {
+    background-color: #A29255!important;
+    color: black;
+}
+  
 body {
     background-color: #004643;
     color:#FFFFFF;
@@ -16,8 +51,9 @@ footer {
     position:relative;
 }
 
-nav {
+.nav-happy {
     background-color: #F9BC60; 
+    /* position:fixed; */
 }
 
 main {
@@ -52,19 +88,15 @@ h1 {
     margin-bottom:1rem;
 }
 
-a.journal-button{
+/* a.journal-button{
     margin-left:3rem;
     margin-right:3rem;
 }
 
 a.quiz-button{
     margin-left:3.5rem; 
-}
-
-
-/* NavLink {
-    color:#FFFFFF;
 } */
+
 
 .feature-selection {
     padding-bottom: 1rem;
@@ -87,50 +119,12 @@ a.quiz-button{
     background-color:#F9BC60 ;
 }
 
-/* .home-page-content card a{
-    justify-content: center;
-} */
-
 iframe {
     max-width: 100%;
 }
 
 .home-page-content img{
     max-width:100%;
-}
-
-@media (max-width:575px )
-{
-
-    .feature-selection {
-        padding-bottom: 1rem;
-    }
-
-    .home-page-content .card {
-        padding-bottom:1rem;
-        margin-bottom:2rem;
-    }
-}
-
-@media (min-width:576px) 
-{
-    .feature-selection {
-        padding-bottom: 1rem;
-    }
-
-    .home-page-content .card {
-        padding-bottom:1rem;
-        margin-bottom:2rem;
-    }
-
-    /* a.journal-button{
-        margin-left:6rem; 
-    }
-    
-    a.quiz-button{
-        margin-left:3.5rem; 
-    } */
-    
 }
 
 
@@ -174,4 +168,41 @@ iframe {
 
 .prompts p a:hover,  .prompts h4 a:hover, .prompts a:hover {
     color: #e16162;
+}
+
+@media (max-width:575px )
+{
+
+    .feature-selection {
+        padding-bottom: 1rem;
+    }
+
+    .home-page-content .card {
+        padding-bottom:1rem;
+        margin-bottom:2rem;
+    }
+
+    nav {
+        max-width: none;
+    }
+}
+
+@media (min-width:576px) 
+{
+    .feature-selection {
+        padding-bottom: 1rem;
+    }
+
+    .home-page-content .card {
+        padding-bottom:1rem;
+        margin-bottom:2rem;
+    }
+    
+}
+
+@media (min-width:1200px) {
+   
+   a.quiz-button{
+       margin-top:20px; 
+   }  
 }
