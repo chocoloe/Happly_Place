@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, CardGroup, Card, CardTitle, CardSubtitle, CardBody, CardText } from 'reactstrap';
+import { Button, CardGroup, Card, CardTitle, CardBody, CardText } from 'reactstrap';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 

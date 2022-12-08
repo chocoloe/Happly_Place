@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, CardGroup, Card, CardTitle, CardSubtitle, CardBody, CardText } from 'reactstrap';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
-import { Link, useNavigate } from 'react-router-dom';
 
 export default function Therapy() {
     
@@ -21,7 +20,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">Inclusive Therapists</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">For people of all identities</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://www.inclusivetherapists.com/images/img/random/inclusive-therapists-cover-photo.jpg" height="250px"/>
+                    <img alt="girls from diverse backgrounds smiling" src="https://www.inclusivetherapists.com/images/img/random/inclusive-therapists-cover-photo.jpg" height="250px"/>
                     <CardBody>
                         <CardText>
                             Connect with therapists near you who understand your backgrounds and identity. 

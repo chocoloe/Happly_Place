@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Form, Row, Col, Badge, CardImg, CardGroup, Card, CardTitle, CardSubtitle, CardLink, CardBody, CardHeader, CardText } from 'reactstrap';
-import { Link, useNavigate } from 'react-router-dom';
+import { Button, Row, Col, CardImg, Card, CardTitle, CardSubtitle, CardBody, CardText } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 
@@ -31,7 +31,7 @@ export default function Resources() {
             <Row>
                 <Col>
                     <Card style={{width: '25rem'}} className="mb-6">
-                        <CardImg alt="Sample" src="https://www.stylist.co.uk/images/app/uploads/2021/11/25112324/therapy-myths-misconceptions-crop-1637839516-1440x1440.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress" height="350px"/>
+                        <CardImg alt="shows therapy session" src="https://www.stylist.co.uk/images/app/uploads/2021/11/25112324/therapy-myths-misconceptions-crop-1637839516-1440x1440.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress" height="350px"/>
                         <CardBody>
                             <CardTitle tag="h5">Non-Urgent Professional Help</CardTitle>
                             <CardSubtitle className="mb-2 text-muted" tag="h6">Explore ways to get connected with specialists</CardSubtitle>
@@ -44,7 +44,7 @@ export default function Resources() {
                 </Col>
                 <Col>
                     <Card style={{width: '25rem'}} className="mb-6">
-                        <CardImg alt="Sample" src="https://www.outfrontmagazine.com/wp-content/uploads/2021/03/finding-peer-support-has-improved-my-management-of-type-2-diabetes-722x406-1.jpg" height="350px"/>
+                        <CardImg alt="group of people hugging each other" src="https://www.outfrontmagazine.com/wp-content/uploads/2021/03/finding-peer-support-has-improved-my-management-of-type-2-diabetes-722x406-1.jpg" height="350px"/>
                         <CardBody>
                             <CardTitle tag="h5">Peer Support & Community</CardTitle>
                             <CardSubtitle className="mb-2 text-muted" tag="h6">Meet others like you</CardSubtitle>
@@ -57,7 +57,7 @@ export default function Resources() {
                 </Col>
                 <Col>
                     <Card style={{width: '25rem'}} className="mb-6">
-                        <CardImg alt="Sample" src="https://img.freepik.com/free-vector/self-care-concept_23-2148531134.jpg?w=2000" height="350px"/>
+                        <CardImg alt="person showing self-love" src="https://img.freepik.com/free-vector/self-care-concept_23-2148531134.jpg?w=2000" height="350px"/>
                         <CardBody>
                             <CardTitle tag="h5">Self Care Tips</CardTitle>
                             <CardSubtitle className="mb-2 text-muted" tag="h6">Take care of yourself</CardSubtitle>
