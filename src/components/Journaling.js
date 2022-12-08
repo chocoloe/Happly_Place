@@ -3,6 +3,7 @@ import { Alert } from 'reactstrap';
 import Entries from './Entries';
 import Form from './Form';
 import NavBar from './NavBar.js';
+import Footer from './Footer.js';
 
 class Journaling extends Component {
   state = {
@@ -52,6 +53,9 @@ class Journaling extends Component {
         </Alert>
         <Form handleSubmit={this.handleSubmit}/>
         <Entries entryData={entries} removeEntry={this.removeEntry}/>
+        <footer className="footer-journal">
+          <Footer />
+        </footer>
       </div>
     );
   }

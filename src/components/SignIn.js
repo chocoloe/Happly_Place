@@ -2,6 +2,7 @@ import React from 'react';
 import { getAuth, EmailAuthProvider, GoogleAuthProvider } from 'firebase/auth';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import NavBar from './NavBar';
+import Footer from './Footer.js';
 
 const FIREBASEUI_CONFIG_OBJ = {
 
@@ -48,6 +49,9 @@ export default function SignIn(props) {
         <div>
             <NavBar />
             <StyledFirebaseAuth firebaseAuth={auth} uiConfig={FIREBASEUI_CONFIG_OBJ} />
+            <footer className="signIn-Footer">
+                <Footer />
+            </footer>
         </div>
     )
 }

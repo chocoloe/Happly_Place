@@ -47,7 +47,7 @@ footer {
     background-color: #F9BC60;
     color:black; 
     font-family: 'Roboto';
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     position:relative;
 }
 
@@ -87,15 +87,6 @@ h1 {
 .home-page-content .card-text {
     margin-bottom:1rem;
 }
-
-/* a.journal-button{
-    margin-left:3rem;
-    margin-right:3rem;
-}
-
-a.quiz-button{
-    margin-left:3.5rem; 
-} */
 
 
 .feature-selection {
@@ -168,6 +159,17 @@ iframe {
 
 .prompts p a:hover,  .prompts h4 a:hover, .prompts a:hover {
     color: #e16162;
+}
+
+.signIn-Footer {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    left:0;
+}
+
+.footer-journal {
+    margin-top:20px;
 }
 
 @media (max-width:575px )

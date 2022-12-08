@@ -6,6 +6,8 @@ import "survey-core/survey.i18n.js";
 import "survey-creator-core/survey-creator-core.i18n.js";
 import "survey-creator-core/survey-creator-core.css";
 import 'survey-core/modern.min.css';
+import NavBar from './NavBar';
+import Footer from './Footer.js';
 
 StylesManager.applyTheme("modern");
 
@@ -98,7 +100,11 @@ function SurveyComponent() {
 	survey.navigateToUrl = "/Results";
     return (
         <div id="surveyPage">
+			<NavBar />
             <Survey model={survey} />
+			<footer>
+                <Footer />
+            </footer>
         </div>
     )
 }
