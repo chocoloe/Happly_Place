@@ -33,7 +33,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">UW Q Center Drop-In Hours</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Celebrating all sexual/gender orientations & identities</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://sites.uw.edu/qcenter/files/2021/02/Q-outline--375x375.png" height="250px"/>
+                    <img alt="Q Center" src="https://sites.uw.edu/qcenter/files/2021/02/Q-outline--375x375.png" height="250px"/>
                     <CardBody>
                         <CardText>
                             Advising about higher education, academic guidance, sexual health, wellbeing, and more.
@@ -46,7 +46,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">UW Queer Mentorship and Peer Program</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Support for LGBTQ+ students</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://www.childnet.com/wp-content/uploads/2022/05/Untitled-design-1024x1024.png" height="250px"/>
+                    <img alt="rainbow people" src="https://www.childnet.com/wp-content/uploads/2022/05/Untitled-design-1024x1024.png" height="250px"/>
                     <CardBody>
                         <CardText>
                             Provides a safe environment to discuss sexual orientation & gender identity/expression.
@@ -61,7 +61,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">Multicultural Counselors</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Washington Counselors of Color Network</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://www.northeastern.edu/graduate/blog/wp-content/uploads/2021/06/Multicultural-counseling.jpg" height="250px"/>
+                    <img alt="group discussion" src="https://www.northeastern.edu/graduate/blog/wp-content/uploads/2021/06/Multicultural-counseling.jpg" height="250px"/>
                     <CardBody>
                         <CardText>
                         Serves an array of ethnic clients needing counseling and therapy from providers who understand the specific needs of people of color and various cultures
@@ -74,7 +74,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">Asian Mental Health Collective</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Mental health support for the Asian community</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://causes.benevity.org/clogo/standard_image/840-852046622" height="250px"/>
+                    <img alt="Asian Mental Health Collective logo" src="https://causes.benevity.org/clogo/standard_image/840-852046622" height="250px"/>
                     <CardBody>
                         <CardText>
                             AMHC aspires to make mental health easily available, approachable, and accessible to Asian communities worldwide.
@@ -87,7 +87,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">Call Blackline</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Prioritizes BIPOC</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://images.squarespace-cdn.com/content/v1/5a4691e19f07f5d01c0a3df3/8fb38b89-dc8b-4719-9385-66177a2e9621/call-blackline-black-logo.png" height="250px"/>
+                    <img alt="Call Blackline logo" src="https://images.squarespace-cdn.com/content/v1/5a4691e19f07f5d01c0a3df3/8fb38b89-dc8b-4719-9385-66177a2e9621/call-blackline-black-logo.png" height="250px"/>
                     <CardBody>
                         <CardText>
                         Provides a space for peer support for the lived experiences to folxs who are most impacted by oppression with an LGBTQ+ Black Femme Lens
@@ -103,7 +103,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">UW Drop-In Counseling</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Virtual "Let's Talk"</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://s3-us-west-1.amazonaws.com/companies.comparably.com/47615/47615_logo_university-of-washington.png" height="250px"/>
+                    <img alt="UW logo" src="https://s3-us-west-1.amazonaws.com/companies.comparably.com/47615/47615_logo_university-of-washington.png" height="250px"/>
                     <CardBody>
                         <CardText>
                         Virtual Let’s Talk is a program that connects UW students with support from experienced counselors from the Counseling Center without an appointment.
@@ -116,7 +116,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">Crisis Text Line</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Text HOME to 741741 to connect with a counselor</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://www.crisistextline.org/wp-content/uploads/2020/03/social-share.png" height="250px"/>
+                    <img alt="Crisis Text Line logo" src="https://www.crisistextline.org/wp-content/uploads/2020/03/social-share.png" height="250px"/>
                     <CardBody>
                         <CardText>
                         Pairs you up with a volunteer specific to your needs and situation. Great for those who would like to access support within minutes and prefers a text conversation.
@@ -129,7 +129,7 @@ export default function Therapy() {
                         <CardTitle tag="h5">My SSP</CardTitle>
                         <CardSubtitle className="mb-2 text-muted" tag="h6">Mental health support for UW students</CardSubtitle>
                     </CardBody>
-                    <img alt="Sample" src="https://pbs.twimg.com/profile_images/553300445083365376/Z-KxAjNY_400x400.png" height="250px"/>
+                    <img alt="My SSP logo" src="https://pbs.twimg.com/profile_images/553300445083365376/Z-KxAjNY_400x400.png" height="250px"/>
                     <CardBody>
                         <CardText>
                             24/7 chat via My SSP website or call. Request a consultation with a counselor and have call returned on the same day.
