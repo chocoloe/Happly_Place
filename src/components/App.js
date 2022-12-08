@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SurveyComponent from './SurveyComponent';
-import { Route, Routes, Outlet, BrowserRouter, Navigate, useNavigate } from 'react-router-dom';
+import { Route, Routes, Navigate, useNavigate } from 'react-router-dom';
 import Signin from './SignIn';
 import HomePage from './HomePage';
 import Results from './Results';

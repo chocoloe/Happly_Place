@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Row, Col, Badge, CardImg, Card, CardTitle, CardSubtitle, CardBody, CardText } from 'reactstrap';
+import { Button, Row, Col, CardImg, Card, CardTitle, CardSubtitle, CardBody, CardText } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';

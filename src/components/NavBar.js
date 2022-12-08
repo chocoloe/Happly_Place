@@ -1,7 +1,6 @@
-import { React , useState} from 'react'; //import React library
-import { NavLink, Link} from "react-router-dom";
-import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
-import { getAuth, signOut } from 'firebase/auth';
+import React from 'react'; //import React library
+import {Container, Nav, Navbar} from 'react-bootstrap';
+
 
 // Creates the navbar with it's link to other pages 'home' ' journaling 'Questionnaire'
 export default function NavBar(props) { // passing in props breaks the code but I would need it for lines 8-13...

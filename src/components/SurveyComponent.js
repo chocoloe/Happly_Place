@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Survey } from 'survey-react-ui';
 import { StylesManager } from 'survey-core';
 import { Model } from 'survey-core';
